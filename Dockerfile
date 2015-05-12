@@ -12,4 +12,4 @@ RUN cd /tmp && pip3 install -r /tmp/requirements.txt
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ENV PYTHONENCODING utf8git 
+ENV PYTHONENCODING utf8
