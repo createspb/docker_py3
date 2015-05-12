@@ -4,3 +4,4 @@ Pillow==2.8.1
 uWSGI==2.0.10
 zc.recipe.egg==2.0.1
 zc.buildout==2.3.1
+setuptools==15.2
