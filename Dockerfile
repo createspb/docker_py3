@@ -4,7 +4,9 @@ MAINTAINER Create Digital <hello@createdigital.me>
 ENV HOME /root
 CMD ["/sbin/my_init"]
 
-RUN apt-get update -qy && apt-get install -qy python3-pip python3-dev binutils libproj-dev gdal-bin libgeoip1
+RUN apt-get update -qy &&\
+    apt-get install -qy python3-pip python3-dev binutils libproj-dev gdal-bin libgeoip1 &&\
+    pip3 install -U pip==7.1.2
 
 ADD requirements.txt /tmp/requirements.txt
 RUN cd /tmp && pip3 install -r /tmp/requirements.txt
