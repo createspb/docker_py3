@@ -3,4 +3,4 @@ lxml==3.4.4
 Pillow==2.9.0
 uWSGI==2.0.11.2
 zc.buildout==2.5.0
-setuptools==18.5
+setuptools==15.2
