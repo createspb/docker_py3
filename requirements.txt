@@ -1,6 +1,6 @@
 psycopg2==2.6.1
-lxml==3.4.4
+lxml==3.5.0
 Pillow==2.9.0
-uWSGI==2.0.11.2
+uWSGI==2.0.12
 zc.buildout==2.5.0
 setuptools==15.2
