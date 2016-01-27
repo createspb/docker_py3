@@ -5,7 +5,7 @@ ENV HOME /root
 CMD ["/sbin/my_init"]
 
 RUN apt-get update -qy &&\
-    apt-get install -qy binutils libproj-dev gdal-bin libgeoip1 build-essential &&\
+    apt-get install -qy binutils libproj-dev gdal-bin libgeoip1 build-essential libncurses5-dev &&\
     apt-get purge -y python.*
 
 #
